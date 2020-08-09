@@ -1,0 +1,61 @@
+@import '../../styles/index.less';
+
+.home {
+    width: 750rpx;
+    .top-nav {
+        height: 358rpx;
+        background-color: #bgColors[theme];
+        border-radius: 0 0 30rpx 30rpx;
+        padding: 66rpx 30rpx 64rpx;
+        .nav-title {
+            line-height: 37rpx;
+            color: #fontColor[fff];
+            font-size: #fontSize[navTitle];
+            font-weight: #fontWeight[navWeight];
+        }
+        .slogan {
+            line-height: 25rpx;
+            margin: 24rpx 0;
+            text {
+                color: #fontColor[fff];
+                font-size: #fontSize[themeTitle];
+                font-weight: 300;
+            }
+        }
+        .notice {
+            width: 690rpx;
+            height: 68rpx;
+            display: flex;
+            align-items: center;
+            background-color: #FFFFFF;
+            opacity: 0.9;
+            border-radius: 8rpx;
+            image {
+                width: 34rpx;
+                height: 30rpx;
+                border: 1rpx solid red;
+                margin: 0 10rpx 0 14rpx;
+                flex-shrink: 0;
+            }
+            .content {
+                font-size: #fontSize[themeTitle];
+                color: #222222;
+                font-weight: 500;
+                white-space: nowrap;
+                overflow: hidden;
+                padding-right: 46rpx;
+                .name {
+                animation: notice 8s linear infinite;
+                }
+                @keyframes notice {
+                    0% {
+                        -webkit-transform: translateX(90%);
+                    }
+                    100% {
+                        -webkit-transform: translateX(-120%);
+                    }
+                }
+            }
+        }
+    }
+}

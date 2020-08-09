@@ -1,0 +1,62 @@
+/* 背景 */
+/* 字体 */
+/* flex */
+.home {
+  width: 750rpx;
+}
+.home .top-nav {
+  height: 358rpx;
+  background-color: #2099AC;
+  border-radius: 0 0 30rpx 30rpx;
+  padding: 66rpx 30rpx 64rpx;
+}
+.home .top-nav .nav-title {
+  line-height: 37rpx;
+  color: #FFFFFF;
+  font-size: 40rpx;
+  font-weight: 600;
+}
+.home .top-nav .slogan {
+  line-height: 25rpx;
+  margin: 24rpx 0;
+}
+.home .top-nav .slogan text {
+  color: #FFFFFF;
+  font-size: 26rpx;
+  font-weight: 300;
+}
+.home .top-nav .notice {
+  width: 690rpx;
+  height: 68rpx;
+  display: flex;
+  align-items: center;
+  background-color: #FFFFFF;
+  opacity: 0.9;
+  border-radius: 8rpx;
+}
+.home .top-nav .notice image {
+  width: 34rpx;
+  height: 30rpx;
+  border: 1rpx solid red;
+  margin: 0 10rpx 0 14rpx;
+  flex-shrink: 0;
+}
+.home .top-nav .notice .content {
+  font-size: 26rpx;
+  color: #222222;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  padding-right: 46rpx;
+}
+.home .top-nav .notice .content .name {
+  animation: notice 8s linear infinite;
+}
+@keyframes notice {
+  0% {
+    -webkit-transform: translateX(90%);
+  }
+  100% {
+    -webkit-transform: translateX(-120%);
+  }
+}
