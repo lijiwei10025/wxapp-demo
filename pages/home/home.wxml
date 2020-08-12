@@ -1,76 +1,25 @@
 <view class="home">
-    <view class="top-nav">
-        <view class="nav-title">大别山景区平台</view>
-        <view class="slogan">
-            <text decode="{{true}}">大别山景区&nbsp;欢乐无限</text>
+	<view class="top-nav">
+		<view class="title">大别山景区平台</view>
+	</view>
+	<scroll-view class="content">
+    <view class="introduce">
+      <view class="slogan">
+        <text decode="{{true}}">大别山景区&nbsp;欢乐无限</text>
+      </view>
+      <view class="notice">
+        <image></image>
+        <view class="notice-content">
+          <view class="name">清凉大别山避暑乐园冰雪+漂流，去大别山清凉一夏</view>
         </view>
-        <view class="notice">
-            <image></image>
-            <view class="content">
-                <view class="name">清凉大别山避暑乐园冰雪+漂流，去大别山清凉一夏</view>
-            </view>
-        </view>
+      </view>
+	  <!--标签-->
+	  <view class="label">
+	  	<text>环境好</text>
+	  	<text>价格低</text>
+	  	<text>质量保证</text>
+	  	<text>服务周到</text>
+	  </view>
     </view>
-    <van-button size="large" type="primary">按钮</van-button>
-    <view class="van-multi-ellipsis--l3">
-        这是一段最多显示三行的文字，后面的内容会省略
-        这是一段最多显示三行的文字，后面的内容会省略
-        这是一段最多显示三行的文字，后面的内容会省略
-        这是一段最多显示三行的文字，后面的内容会省略
-      </view>
-      <view class="van-multi-ellipsis--l3">
-        这是一段最多显示三行的文字，后面的内容会省略
-        这是一段最多显示三行的文字，后面的内容会省略
-        这是一段最多显示三行的文字，后面的内容会省略
-        这是一段最多显示三行的文字，后面的内容会省略
-      </view>
-      <view class="van-multi-ellipsis--l3">
-        这是一段最多显示三行的文字，后面的内容会省略
-        这是一段最多显示三行的文字，后面的内容会省略
-        这是一段最多显示三行的文字，后面的内容会省略
-        这是一段最多显示三行的文字，后面的内容会省略
-      </view>
-      <view class="van-multi-ellipsis--l3">
-        这是一段最多显示三行的文字，后面的内容会省略
-        这是一段最多显示三行的文字，后面的内容会省略
-        这是一段最多显示三行的文字，后面的内容会省略
-        这是一段最多显示三行的文字，后面的内容会省略
-      </view>
-      <view class="van-multi-ellipsis--l3">
-        这是一段最多显示三行的文字，后面的内容会省略
-        这是一段最多显示三行的文字，后面的内容会省略
-        这是一段最多显示三行的文字，后面的内容会省略
-        这是一段最多显示三行的文字，后面的内容会省略
-      </view>
-      <view class="van-multi-ellipsis--l3">
-        这是一段最多显示三行的文字，后面的内容会省略
-        这是一段最多显示三行的文字，后面的内容会省略
-        这是一段最多显示三行的文字，后面的内容会省略
-        这是一段最多显示三行的文字，后面的内容会省略
-      </view>
-      <view class="van-multi-ellipsis--l3">
-        这是一段最多显示三行的文字，后面的内容会省略
-        这是一段最多显示三行的文字，后面的内容会省略
-        这是一段最多显示三行的文字，后面的内容会省略
-        这是一段最多显示三行的文字，后面的内容会省略
-      </view>
-      <view class="van-multi-ellipsis--l3">
-        这是一段最多显示三行的文字，后面的内容会省略
-        这是一段最多显示三行的文字，后面的内容会省略
-        这是一段最多显示三行的文字，后面的内容会省略
-        这是一段最多显示三行的文字，后面的内容会省略
-      </view>
-      <view class="van-multi-ellipsis--l3">
-        这是一段最多显示三行的文字，后面的内容会省略
-        这是一段最多显示三行的文字，后面的内容会省略
-        这是一段最多显示三行的文字，后面的内容会省略
-        这是一段最多显示三行的文字，后面的内容会省略
-      </view>
-      <view class="van-multi-ellipsis--l3">
-        这是一段最多显示三行的文字，后面的内容会省略
-        这是一段最多显示三行的文字，后面的内容会省略
-        这是一段最多显示三行的文字，后面的内容会省略
-        这是一段最多显示三行的文字，后面的内容会省略
-      </view>
-    <view class="van-hairline--top"></view>
+	</scroll-view>
 </view>

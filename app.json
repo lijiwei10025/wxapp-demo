@@ -1,9 +1,8 @@
 {
   "pages": [
     "pages/home/home",
-    "pages/logs/logs"
-
-
+    "pages/order/order",
+    "pages/user/user"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -11,8 +10,28 @@
     "navigationBarTitleText": "Weixin",
     "navigationBarTextStyle": "white"
   },
+  "tabBar": {
+    "custom": true,
+    "color": "#999999",
+    "selectedColor": "#2099AC",
+    "backgroundColor": "#ffffff",
+    "list" : [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "text": "订单"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {},
   "sitemapLocation": "sitemap.json",
-
   "useExtendedLib": {
     "kbone": true,
     "weui": true

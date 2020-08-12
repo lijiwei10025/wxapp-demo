@@ -1,0 +1,9 @@
+<view class="tabbar">
+    <view class="item" wx:for="{{tabList}}" wx:key="index">
+        <view class="navigation" bindtap = "tabbarNav" data-index="{{index}}">
+            <image hidden="{{index === activeIndex}}" src="{{item.icon}}"></image>
+            <image hidden="{{index !== activeIndex}}" src="{{item.selectedIcon}}"></image>
+            <text class="{{index == activeIndex ? 'active' : ''}}">{{item.text}}</text>
+        </view>
+    </view>
+</view>
